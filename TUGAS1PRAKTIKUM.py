@@ -63,7 +63,7 @@ print("==================== STRUK PEMESANAN TIKET ====================")
 print("Nama            :", nama)
 print("Umur          :", umur, "tahun")
 print("Jenis Kelamin   :", jenis_kelamin)
-
+print("---------------------------------------------------------------")
 if kode == 3012:
     rute = "Padang - Jakarta"
 elif kode == 4015:
