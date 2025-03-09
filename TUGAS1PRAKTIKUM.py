@@ -16,7 +16,7 @@ if kode == 3012:
     print("Pilih kelas Maskapai:")
     print("1. Ekonomi (Rp 800.000)")
     print("2. Bisnis (Rp 850.000)")
-    print("3.n First Class (Rp 900.000)")
+    print("3. First Class (Rp 900.000)")
     harga_ekonomi = 800000
     harga_bisnis = 850000
     harga_first_class = 900000
