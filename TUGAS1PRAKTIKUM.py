@@ -10,6 +10,13 @@ print("4015 = Padang - Batam")
 print("4050 = Padang - Bandung")
 kode = int(input("Masukan kode Maskapai : "))
 
+if kode == 3012:
+    rute = "Padang - Jakarta"
+elif kode == 4015:
+    rute = "Padang - Batam"
+else:
+    rute = "Padang - Bandung"
+
 jumlah_tiket = int(input("Masukkan jumlah tiket yang ingin dipesan: "))
 
 if kode == 3012:
@@ -50,7 +57,6 @@ elif pilihan_kelas == "first class":
 else:
     print("Kelas tidak valid.")
 
-
 total_harga = harga_per_tiket * jumlah_tiket
 if jumlah_tiket > 3:
     diskon = total_harga * 0.2
@@ -64,12 +70,6 @@ print("Nama            :", nama)
 print("Umur          :", umur, "tahun")
 print("Jenis Kelamin   :", jenis_kelamin)
 print("---------------------------------------------------------------")
-if kode == 3012:
-    rute = "Padang - Jakarta"
-elif kode == 4015:
-    rute = "Padang - Batam"
-else:
-    rute = "Padang - Bandung"
 print("Rute            :", rute)
 print("Jumlah Tiket    :", jumlah_tiket, "tiket")
 print("Kelas Pesawat   :", pilihan_kelas)
