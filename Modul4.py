@@ -1,6 +1,5 @@
 r = 0
 c = 0
-
 while r < 4 or c < 4:
     r = int(input("Masukkan jumlah baris kursi: "))
     c = int(input("Masukkan jumlah kolom kursi: "))
@@ -16,11 +15,9 @@ for i in range(r):
 
 while True:
     Pilihan = int(input("\nMasukkan nomor kursi yang ingin dipilih (0 untuk selesai): "))
-    
     if Pilihan == 0:
         print("\nTerima kasih telah menggunakan layanan pemesanan tiket bioskop.")
         break
-    
     if Pilihan < 1 or Pilihan > r * c:
         print("Nomor kursi tidak valid. Silakan coba lagi.")
         continue
